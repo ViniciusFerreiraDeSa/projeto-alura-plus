@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root{
+    --corPrincipal: #00030C;
+    --corParagrafos: #fff;
+    --corTexto: #C0C0C0;
+    --corBotao: #167BF7;
+    --corHover: #732C2C;
+
+    --fonteTexto:'Inter', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--corPrincipal);
+    color: var(--corParagrafos);
+    font-family: var(--fonteTexto);
+    font-weight: 400;
+    font-size: 1rem;   
+}
+.principal{
+    background-image: url("imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain; /* Preenche todo o espaçamento*/
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.primeiro_conteudo{
+    margin: 0em 6em;
+}
+.titulo_combo{
+    font-family: var(--fonteTexto);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.container_imagem{
+    margin: 1% 0% 2% 0%;
+}
+.container_botao{
+    background-color: var(--corBotao);
+    border-radius: 8px; 
+    padding: 1em;
+    color: var(--corParagrafos);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+.container_botao:hover{
+    background-color: var(--corHover);
+}
+.container_botao2{
+    background-color: transparent;
+    border: 1px solid var(--corParagrafos);
+}
+.aviso_preco{
+    color: var(--corTexto);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.imagem_plataforma{
+    width: 70%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 8em;
+}
+.plataforma_titulo{
+    font-family: var(--fonteTexto);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.2%;
+}
+.plataforma_paragrafo{
+    color: var(--corTexto);
+}
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_plataformainfo{
+    padding: 2em;
+}
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 3em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos_titulo{
+    font-size: 3rem;
+    color: var(--corParagrafos);
+}
+.titulo_lista{
+    font-size: 2rem;
+    color: var(--corParagrafos);
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em ;
+}
+.rodape_lista{
+    display: flex;
+    justify-items: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.link_lista{
+    color: var(--corParagrafos);
+    text-decoration: none;
+    margin-left: 1.2em;
+    font-size: 1rem;
+}
+.link_lista:hover{
+    color:  var(--corHover);
+}
+.rodape_texto{
+    margin: 2em 0;
+    color: var(--corTexto);
+    font-size: 0.8rem;
+}
