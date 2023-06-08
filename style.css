@@ -127,3 +127,28 @@ body{
     color: var(--corTexto);
     font-size: 0.8rem;
 }
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container_imagem{
+        width: 50vw;
+    }
+    .primeiro_conteudo{
+        margin: 2em 2em;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .imagem_plataforma{
+        width: 50vw;
+    }
+    .dispositivos_lista{
+        display: block;
+    }
+    .rodape_lista{
+        display: block;
+    }
+} 
